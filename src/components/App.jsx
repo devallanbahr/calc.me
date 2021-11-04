@@ -6,13 +6,7 @@ class App extends Component {
     counter: 0,
   };
   render() {
-    return (
-      <section className="app">
-        <input type="button" value="+" onClick={this.state.counter} />
-        <input type="button" value="-" onClick={this.state.counter} />
-        <p>{this.state.counter}</p>
-      </section>
-    );
+    return <section className="app"></section>;
   }
 }
 
