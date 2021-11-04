@@ -6,11 +6,9 @@ class App extends Component {
   render() {
     return (
       <section className="app">
-        <section className="app-buttons">
-          <input type="button" value="+" onClick={this.state.counter} />
-          <input type="button" value="-" onClick={this.state.counter} />
-          <p>{this.state.counter}</p>
-        </section>
+        <input type="button" value="+" onClick={this.state.counter} />
+        <input type="button" value="-" onClick={this.state.counter} />
+        <p>{this.state.counter}</p>
       </section>
     );
   }
