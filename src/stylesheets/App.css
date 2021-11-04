@@ -7,3 +7,20 @@
 body {
   background-color: #121212;
 }
+.app {
+  color: #eee;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+}
+.app-content {
+  display: none;
+}
+.app-show {
+  width: 125px;
+  height: 45px;
+}
