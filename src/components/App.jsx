@@ -6,6 +6,7 @@ class App extends Component {
     super(props);
 
     this.sectionAppContent = React.createRef();
+    this.inputText = React.createRef();
 
     this.state = {
       counter: 0,
@@ -20,19 +21,24 @@ class App extends Component {
         this.sectionAppContent.current.style.display = "inline-block";
       }
     };
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      this.setState({ counter: this.inputText.current.value });
+    };
     return (
       <section className="app">
         <section className="app-input">
           <input
             className="app-show"
+            id="app-show"
             onClick={setOrNotVisible}
             type="button"
-            value="Show/Hide"
+            value="Show"
           />
         </section>
         <section ref={this.sectionAppContent} className="app-content">
           <h2>{this.state.counter}</h2>
-          <input type="text" ref={this.inputText} />
+          <input onChange={handleSubmit} type="text" ref={this.inputText} />
         </section>
       </section>
     );
