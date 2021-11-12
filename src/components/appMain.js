@@ -14,9 +14,6 @@ class App extends Component {
 
     this.inputText = React.createRef();
     this.Button = React.createRef();
-    this.state = {
-      inputText: 0,
-    };
   }
 
   render() {
