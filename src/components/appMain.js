@@ -11,6 +11,7 @@ import {
 class App extends Component {
   constructor(props) {
     super(props);
+    se;
 
     this.inputText = React.createRef();
     this.Button = React.createRef();
