@@ -11,6 +11,7 @@ export const Main = createGlobalStyle`
   body{
     background-color: #121212;
   }
+
 `;
 
 export const AppMain = styled.div``;
