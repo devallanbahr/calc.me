@@ -15,21 +15,15 @@ class App extends Component {
     this.inputText = React.createRef();
     this.Button = React.createRef();
   }
-
   render() {
-    const Equal = () => {
-      let res = Math.fround(parseInt(this.inputText.current.value) * 1);
-      this.inputText.current.value = res;
-    };
-    const Clear = () => {
-      this.inputText.current.value = "";
-    };
     const Insert = (e) => {
-      this.inputText.current.value += e.target.value;
       if (e.target.value === "CE") {
-        Clear();
+        this.inputText.current.value = "";
       } else if (e.target.value === "=") {
-        Equal();
+        var res = parseInt(eval(this.inputText.current.value));
+        this.inputText.current.value = res;
+      } else {
+        this.inputText.current.value += e.target.value;
       }
     };
 
@@ -43,97 +37,97 @@ class App extends Component {
               onClick={Insert}
               ref={this.Button}
               type="button"
-              value="1"
+              value={"1"}
             />
             <Button
               onClick={Insert}
               ref={this.Button}
               type="button"
-              value="2"
+              value={"2"}
             />
             <Button
               onClick={Insert}
               ref={this.Button}
               type="button"
-              value="3"
+              value={"3"}
             />
             <Button
               onClick={Insert}
               ref={this.Button}
               type="button"
-              value="+"
+              value={"+"}
             />
             <Button
               onClick={Insert}
               ref={this.Button}
               type="button"
-              value="4"
+              value={"4"}
             />
             <Button
               onClick={Insert}
               ref={this.Button}
               type="button"
-              value="5"
+              value={"5"}
             />
             <Button
               onClick={Insert}
               ref={this.Button}
               type="button"
-              value="6"
+              value={"6"}
             />
             <Button
               onClick={Insert}
               ref={this.Button}
               type="button"
-              value="-"
+              value={"-"}
             />
             <Button
               onClick={Insert}
               ref={this.Button}
               type="button"
-              value="7"
+              value={"7"}
             />
             <Button
               onClick={Insert}
               ref={this.Button}
               type="button"
-              value="8"
+              value={"8"}
             />
             <Button
               onClick={Insert}
               ref={this.Button}
               type="button"
-              value="9"
+              value={"9"}
             />
             <Button
               onClick={Insert}
               ref={this.Button}
               type="button"
-              value="x"
+              value={"*"}
             />
             <Button
               onClick={Insert}
               ref={this.Button}
               type="button"
-              value="CE"
+              value={"CE"}
             />
             <Button
               onClick={Insert}
               ref={this.Button}
               type="button"
-              value="0"
+              value={"0"}
             />
             <Button
               onClick={Insert}
               ref={this.Button}
               type="button"
-              value="="
+              value={"="}
             />
             <Button
               onClick={Insert}
               ref={this.Button}
               type="button"
-              value="/"
+              value={"/"}
             />
           </Buttons>
         </Container>
