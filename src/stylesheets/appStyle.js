@@ -24,24 +24,34 @@ export const Buttons = styled.div`
   margin: 1rem;
 `;
 export const Button = styled.input`
-  padding: 1rem;
+  padding: 1.1rem;
+  background-color: #121212;
+  color: #fff;
+  border: none;
   cursor: pointer;
-  font-size: 14pt;
+  border: 1px solid #aac1;
+  font-size: 16pt;
   margin: 0.25rem;
-  font-weight: 400;
+  font-weight: 300;
+  background-color: #151515;
   :hover {
+    border: 1px solid #aaa5;
+    font-weight: 400;
   }
 `;
 
 export const Input = styled.input`
-  width: 265px;
+  width: 274px;
   font-weight: 300;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
   height: 8.5vh;
   font-size: 18pt;
+  background-color: #151515;
+  color: #fff;
+  border: 1px solid #acc1;
 
   ::placeholder {
-    color: #000;
+    color: #fff;
   }
 `;
 
