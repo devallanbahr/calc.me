@@ -20,7 +20,7 @@ class App extends Component {
       if (e.target.value === "CE") {
         this.inputText.current.value = "";
       } else if (e.target.value === "=") {
-        if (this.inputText.current.value == 0) {
+        if (this.inputText.current.value === 0) {
           this.inputText.current.value = "";
         } else {
           var res = parseInt(eval(this.inputText.current.value));
