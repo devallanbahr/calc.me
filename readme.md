@@ -1,15 +1,15 @@
-> ### Simple Calculator made with **React**
+> #### Simple Calculator made with **React**
 >
 > A simple calculator application in web using React that i have made.
 > Sugestions or ideas, tell me!
 
-> ### Utilized:
+> #### Utilized:
 
 - | HTML |
 - | CSS |
 - | React.js |
 
-> ### Todo:
+> #### Todo:
 
 - [x] | Worked in the simple Structure |
 - [x] | Worked in simple functions with operations **(+,-,x,/)** |
@@ -18,7 +18,7 @@
 - [ ] | Work to change the function eval() to another solution |
 - [ ] | Work to add a button to erase a one value of input |
 
-> ### Packages:
+> #### Packages:
 
 - | ReactJS |
 - | Styled Components |
