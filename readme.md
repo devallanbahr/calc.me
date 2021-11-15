@@ -1,4 +1,4 @@
-> #### Simple Calculator made with **React**
+> #### Simple Calculator in **React**
 
 > A simple calculator application in web using React that i have made.
 > Sugestions or ideas, tell me!
