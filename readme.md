@@ -12,18 +12,18 @@
 > - React.js
 
 > #### To-do
->
-> Somethings i have thinking to place in this project i will put in here.
->
-> - [x] Work in the simple structure
-> - [x] Work in simple functions with **operations**(+,-,x,/)
-> - [x] Work in clear function
-> - [x] Work in the style
-> - [ ] Work to change the function eval() to another solution
-> - [ ] Work to add a button to erase a one value of input
+
+Somethings i have thinking to place in this project i will put in here.
+
+- [x] Work in the simple structure
+- [x] Work in simple functions with **operations**(+,-,x,/)
+- [x] Work in clear function
+- [x] Work in the style
+- [ ] Work to change the function eval() to another solution
+- [ ] Work to add a button to erase a one value of input
 
 > #### Add-ons
->
-> Some add-ons i have used to implement this project and helped me in the development.
->
-> - Styled Components
+
+Some add-ons i have used to implement this project and helped me in the development.
+
+- Styled Components
