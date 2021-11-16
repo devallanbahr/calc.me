@@ -1,7 +1,6 @@
 import styled, { createGlobalStyle } from "styled-components";
 
 export const Main = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;700&family=Roboto:wght@300;400;700&display=swap');
   *{
     margin: 0 auto;
     padding: 0;
